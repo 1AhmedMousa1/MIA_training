@@ -1,6 +1,9 @@
 
 # My Linux Experience
 
+
+**Frist i installed virtuial box to boot ubuntu on it then opened the ubuntu os and tried the command line and this is the commands that i tried**
+
 In this file, I will share my experience with using Linux commands
 
 ## Basic Commands
