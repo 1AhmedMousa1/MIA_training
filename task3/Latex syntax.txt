@@ -1,0 +1,55 @@
+
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\title{Path Planning}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction to Path Planning}
+
+Path planning is the process of finding a feasible path for a robot or autonomous vehicle to travel from a starting point to a goal point while avoiding obstacles. It is an essential component of autonomous navigation systems and is used in various applications such as self-driving cars, robot manipulators, unmanned ground vehicles (UGVs), and unmanned aerial vehicles (UAVs) .
+
+\section{Types of Path Planning Algorithm}
+
+There are several types of algorithms used for path planning. Some common categories include grid-based search algorithms, sampling-based search algorithms, and trajectory optimization algorithms . 
+
+Grid-based search algorithms find a path based on minimum travel cost in a grid map. They can be used for applications such as mobile robots in a 2D environment. However, the memory requirements to implement grid-based algorithms could increase with the number of dimensions, such as for a 6-DOF robot manipulator .
+
+Sampling-based search algorithms create a searchable tree by randomly sampling new nodes or robot configurations in a state space. Sampling-based algorithms can be suitable for high-dimensional search spaces such as those used to find a valid set of configurations for a robot arm to pick up an object. Generating dynamically feasible paths for various practical applications make sampling-based planning popular, even though it does not provide a complete solution .
+
+Trajectory optimization algorithms formulate the path planning problem as an optimization problem that considers the desired vehicle performance, relevant constraints, and vehicle dynamics. Along with generating dynamically feasible trajectories, they can also be applied for online path planning in uncertain environments. However, depending on the complexity of the optimization problem, real-time planning can be prohibitive .
+
+\section{Local planner and Global planner}
+
+The global planner tries to find a path from the robot to the desired goal without colliding with obstacles. The local planner will get the path from the global planner, which is a succession of goals that the local planner will try to reach . The local planner "follows" a moving virtual goal on the global plan. Therefore locations of intermediate global plan position of the global plan significantly influence the spatial behavior of the local plan .
+
+\section{Challenges and Future Trends in Path Planning}
+
+One of the challenges in path planning is dealing with dynamic environments where obstacles are detected online by the robot's sensors . Another challenge is generating smooth trajectories that could be executed at high speed while avoiding excessive accelerations of the actuators and vibrations of the mechanical structure .
+
+Future trends in path planning research include developing more efficient and intelligent algorithms that can handle dynamic changes in the environment and generate dynamically feasible paths .
+
+\section{Practical Applications of Path Planning}
+
+Path planning has many practical applications in various fields such as robotics, automation, transportation, and logistics. It adds autonomy in systems such as self-driving cars, robot manipulators, unmanned ground vehicles (UGVs), and unmanned aerial vehicles (UAVs) . It is also used in other applications such as animating digital characters, video games, architectural design, robotic surgery, and the study of biological molecules.
+
+\section{Conclusion and Resources}
+
+In conclusion, path planning is an essential component of autonomous navigation systems and has many practical applications. There are several types of algorithms used for path planning, each with its own strengths and limitations. Future research in this field aims to develop more efficient and intelligent algorithms that can handle dynamic changes in the environment.
+
+
+
+\bibliographystyle{plain}
+\bibliography{}
+https://www.connectedpapers.com/main/9c07679d2da571ac6b9a051f229da4272817873d/A-Survey-of-Path-Planning-Algorithms-for-Mobile-Robots/graph \
+
+
+\end{document}
