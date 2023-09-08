@@ -81,6 +81,11 @@ int main() {
 
   ## ~~Task4~~ 
 
+  ## Task 5
+  it was makeing my github repo and learning about linux interface
+  ## Task6
+  it was about sensors and latex 
+
 
 
 
