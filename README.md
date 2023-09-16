@@ -63,8 +63,9 @@ int main() {
 
 
   ## Task2
+![poles](https://github.com/1AhmedMousa1/MIA_training/assets/143888410/092c1591-2fb3-45d6-9ef2-7e9f1ab10b06)
 
-   (![**H bridge**](untitled:Untitled-1.ipynb/H%2520Bridge.jpg?jupyter-notebook))
+   (![**H bridge**]())
   
   > This is a H bridge design that each button rotate the motor in the diffrent direction
 
