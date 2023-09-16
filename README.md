@@ -63,7 +63,7 @@ int main() {
 
 
   ## Task2
-![poles](https://github.com/1AhmedMousa1/MIA_training/assets/143888410/092c1591-2fb3-45d6-9ef2-7e9f1ab10b06)
+
 
    (![**H bridge**]())
   
